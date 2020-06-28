@@ -1,0 +1,672 @@
+/*
+TASK 1
+*/
+
+/* start navbar */
+.navbar {
+  top:0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+/* right to left part */
+.nav-link {
+  margin-top:10;
+    font-weight: bold;
+    color: #aaa; 
+  }
+.nav-link:hover{
+  color: #1e90ff !important ;
+}
+
+#i1 {
+  width: 40px;
+  height: 40px;
+  display: block; 
+  margin: auto
+  }
+/*left to right part */
+.log {
+  height: 45px;
+  background-color:  #008b8b !important;
+    border-radius: 5px;
+  padding: 5px 5px 10px 5px;
+  color: #fff !important;
+  margin: 5px;
+  font-size: 18px;
+}
+.log:hover {
+  color: #fff !important;
+} 
+.butim {
+  background-color: #f8f9fa !important;
+  border-color:#f8f9fa!important;
+}
+.butim img {
+
+  border-radius: 50%;
+}
+.dropdown-item span {
+  padding: 0px 5px 0px 5px;
+  background-color: #008b8b;
+  color: #fff;
+  border-radius: 60%;
+}
+.dropdown-toggle::after { 
+  content: none; 
+}
+.hello
+{margin: 10;}
+/* End navbar */
+#adm{
+    display: none;
+}
+/* Start slider */
+.carousel slide{
+	background-color: #DDD;
+	height: 40vh;
+	
+}
+@media(max-width: 768px){
+	.carousel slide{
+		justify-content:center;
+	}
+	}
+	
+
+
+/* End slider */
+/* Start search */
+/* Start SearchProperty  */
+.search{
+  width: 75%;
+  display: block;
+  margin:-22px auto auto auto;
+  padding: 10px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px 1px #aaa;
+  margin-bottom: 10px;
+}
+
+.search select , .search .t1{
+  border: 1px solid #aaa;
+  height: 50px;
+  width: 150px;
+  margin: 13px;
+  padding-right: 10px;
+}
+
+.search #sub {
+  padding: 10px;
+  width: 70px;
+  height: 40px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #008b8b;
+  border: 1px solid #008b8b;
+  cursor: pointer;
+  box-shadow: -1px -1px 8px  #aaa,
+               1px  1px 8px  #aaa; 
+}
+/* End SearchProperty  */
+
+
+
+/* End search */
+/* Start Cards */
+ .container{
+	 width: 100%;
+	 
+	 padding-right: 15px;
+	 padding-left: 15px;
+	 margin-right: auto;
+	 margin-left: auto;
+	direction: rtl;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	color:rgb(33, 37, 41);
+
+
+text-align:center;
+visibility:visible;
+
+
+}
+.container .row{
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container .col-md-6{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container .ban{
+	display: inline-block;
+    vertical-align: middle;
+	transform: perspective(1px) translateZ(0px);
+	transition-duration: 0.3s;
+    transition-property: transform;
+}
+.container .box {
+	box-shadow: rgb(204, 204, 204) 1px 1px 15px 1px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+
+
+	
+    
+	
+}
+@media(max-width: 768px){
+	.container .box{
+		width: 100%;
+		padding-right: 15px;
+    padding-left: 15px;
+}
+	}
+	
+.container .box img{
+	vertical-align: middle;
+	border-style: none;
+	max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+	
+}
+.box:hover{
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75) ;
+}
+.container .hvr-bounce-in{
+display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
+	transition-duration: 0.5s;
+}
+.container .hvr-bounce-in button{
+	height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: darkcyan;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: rgb(170, 170, 170) 1px 1px 10px 1px;
+    padding: 5px 15px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkcyan;
+    border-image: initial;
+    margin: 10px;
+	
+
+}
+.container .box p {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.container .box h4 {
+	margin-bottom: 0.5rem;
+	/*font-family: inherit;*/
+	font-weight: bold;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.container .hvr-bounce-in button:hover{
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);	
+}
+/* End Cards */
+/* Start Footer */
+.footer {
+	direction: rtl;
+	background-color: darkcyan ;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+.footer .container .row .col-lg-4{
+	direction: rtl;
+	font-size: 20px;
+	color: lightyellow;
+	text-align: right;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	font-family:Cairo, sans-serif;
+	visibility: visible;
+    animation-name: flipInX;
+font-weight:400;
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	text-size-adjust:100%;
+
+
+}
+.footer .container .row .col-lg-4 p a{
+	color:#FFF;
+}
+.footer .ww{
+	text-align: center;
+
+} 
+
+  
+/*. End Footer */
+/* Start Reservation */
+#Reserv{
+	margin-top: 85px;
+	direction: rtl;
+	text-align: center;
+	box-sizing: border-box;
+
+ 
+}
+@media (min-width: 640px){
+.modal {
+    padding: 50px 30px;
+}}
+#Reserv .modal-dialog{
+	position: relative;
+    box-sizing: border-box;
+	width: 600px;
+	max-width: calc(100% - 0.01px) !important;
+    margin: 0px auto;
+	background: rgb(255, 255, 255);
+	transition: .3s linear;
+	transition: opacity 0.3s linear 0s, transform;
+	display: block;
+	
+
+}
+#Reserv .modal-dialog h2{
+	margin-bottom: 0.5rem;
+    font-family: inherit;
+	font-weight: 500;
+	color: inherit;
+
+}
+#Reserv  .container{
+	
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Reserv  .container .row{
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#Reserv  .container .row .col-md-6{
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+	color: rgb(33, 37, 41);
+	margin-top: 3px;
+	margin-bottom: 3px;
+	flex: 0 0 50%;
+	max-width: 50%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 768px)
+{
+	#Reserv  .container .row.col-md-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}}
+#Reserv  .container .row .col-md-6 input{
+	width: 250px;
+    margin: 10px;
+    height: 40px;
+    border: 1px solid #aaa;
+    padding-right: 10px;
+}
+#Reserv .container .row p{
+	cursor: pointer;
+	display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    font-size: .875rem;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color,border-color;
+}
+/* End Reservaton */
+/* Start Message */
+#Message{
+	margin-top: 85px;
+	direction: rtl;
+	text-align: center;
+	box-sizing: border-box;
+    
+  
+
+}
+#Message .modal-dialog{
+	
+	position: relative;
+    box-sizing: border-box;
+	width: 600px;
+	max-width: calc(100% - 0.01px) !important;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    transition: opacity 0.3s linear 0s, transform;
+}
+#Message textarea{
+	width: 100%;
+    height: 200px;
+	padding-right: 10px;
+	resize: vertical;
+	overflow: auto;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding: 2px;
+}
+#Message .button{
+	
+    border-width: 1px;
+    border-style: solid;
+    
+}
+#Message p{
+	cursor: pointer;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+	margin: 0px;
+	overflow: visible;
+    font: inherit inherit inherit inherit inherit inherit inherit inherit;
+    padding: 0px 30px;
+    text-decoration: none;
+    transition: color 0.1s ease-in-out 0s, background-color, border-color;
+}
+/* End Message */
+/* Start Worning */
+#Worning{
+	margin-top: 85px;
+	direction: rtl;
+	text-align: center;
+	box-sizing: border-box;	
+}
+#Worning .modal-dialog{
+	position: relative;
+    box-sizing: border-box;
+	width: 600px;
+	max-width: calc(100% - 0.01px) !important;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    transition: opacity 0.3s linear 0s, transform;
+}
+#Worning textarea{
+	width: 100%;
+    height: 200px;
+	padding-right: 10px;
+	resize: vertical;
+	overflow: auto;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding: 2px;
+}
+/* End Worning */
+/* Start reserv */
+/* Start Modals part  */
+#resrvemodal {
+    direction: rtl;
+    text-align: center;
+    margin: auto;
+}
+#resrvemodal h2
+{margin: auto;}
+ #resrvemodal a
+ {margin: auto 10 auto auto ;}
+#resrvemodal button
+{margin-right: 150px;
+  border: 1px solid #aaa;
+margin-left: 0;
+width: 100px;}
+.flexcontainer
+{display: flex;}
+#resrvemodal select , #resrvemodal input[type="text"] {
+  height: 40px;
+  border: 1px solid #aaa;
+  margin: 10px 20px 10px 10px;
+  padding-right: 10px;
+  width: 150px;
+}
+.modal-lg {
+max-width: 45% !important;
+}
+h5
+{margin: auto;}
+.closebtn
+{margin:auto;
+border: 1px solid #aaa;
+width: 100px;}
+/* End Modals part  */
+
+/* End reserv */
+/* Start about */
+.about .container .row .col-md-6 img{
+	margin-top: 100px;
+	margin-left: 250px;
+	
+}
+.about .container .row .col-md-6 p{
+	margin-right: 70px;
+	margin-top: 150px;
+	font-size: 20px;
+    color: dimgray;
+    text-align: right;
+	direction: rtl;
+    font-size: 20px;
+    font-family: 'Cairo';
+	font-weight: bold;
+	display: block;
+	
+    
+}
+.about .container .row .col-md-6 button{
+	margin-right: 70px;
+	color: darkcyan;
+    cursor: pointer;
+    float: right;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkcyan;
+    border-image: initial;
+    padding: 5px 10px;
+}
+/* End about */
+/* Start contact */
+.contact {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	direction: rtl;
+	margin-top: 150px;
+	position: relative;
+}
+.contact h1{
+	
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact .container{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact .container .row .col-md-6{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contact .container .row .col-md-6 p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.contact .container .row .col-md-6 form input{
+	display: block;
+    width: 300px;
+    height: 40px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    border-image: initial;
+}
+.contact .container .row .col-md-6 form textarea{
+	display: block;
+    width: 300px;
+    height: 80px;
+    padding-right: 10px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    border-image: initial;
+    border-radius: 5px;
+}
+.contact .container input[type="submit"] {
+    color: darkcyan;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-color: darkcyan;
+}
+/* End contact */
+/* Start Modul Footer */
+.modal
+{direction: rtl!important;
+text-align: right;}
+
+/* End Modul Footer */
+/* Start Reservation */
+/* Start Footer */
+.foot{
+ direction: rtl;   
+}
+@media (min-width: 768px){
+.foot .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+.foot img{
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
+    direction: rtl;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.foot p{
+    position: relative;
+    top: 100px;
+}
+/* End Footer */
+/*End Reservation */
+
+@media(max-width:750px){
+    .navbar-toggler{
+        margin-right: 40px;
+    }
+    .search {
+        width: fit-content!important;
+        padding: 10px;
+    }
+    .search select{
+        display: block;
+        margin-right: auto;
+              margin-left: auto;
+             
+    }
+    .search input {
+        display: block;
+  margin-right: auto;
+        margin-left: auto;
+       
+    }
+    
+   .navbar{
+       overflow-y: scroll!important;
+   }
+   .search #sub
+   {width: 150px!important ;
+margin-right: 10px!important;}
+}
+@media (min-width: 992px)
+{
+.log
+{height: auto!important;}
+}
+
+

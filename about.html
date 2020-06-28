@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<title>Task 2</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/main.css">
+     <link rel="stylesheet" type="text/css" href="css/reserve.css">
+     <link rel="stylesheet" href="css/hover.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!--start navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="logo col-xs-12">
+        <a class="navbar-brand" href="#" style="color: #1E90FF"><img id="i1" src="img/logo.png">PS-Estates</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="Reservation.html" data-toggle="modal" data-target="#resrvemodal">الحجز</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html">من نحن</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="add.html">اضف عقارك+</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="Contact.html">اتصل بنا</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="langDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              اللغة
+            </a>
+            <div class="dropdown-menu" aria-labelledby="langDropdown">
+              <a class="dropdown-item" href="#">العربية</a>
+
+              <a class="dropdown-item" href="#">English</a>
+            </div>
+          </li>
+        </ul>
+
+        <label class="hello" dir="ltr" style="margin-right: 260px;"><spane id="username"> </spane> اهلا بك</label>
+        <div class="dropdown" dir="ltr">
+          <button class="butim btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            <img src="img/user.jpg" width="60" height="60" />
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="Profile.html"> الملف الشخصي <i class="fa fa-user"></i></a>
+            <a class="dropdown-item" href="#"> <span>6</span>الاشعارات <i class="fa fa-bell"></i></a>
+            <a class="dropdown-item" id="logout" href="#">تسجيل الخروح <i class="fa fa-sign-out"></i> </a>
+            <a class="dropdown-item" id="adm" href="dashboard.html">صفحة المسؤول <i class="fa fa-sign-out"></i> </a>
+          </div>
+        </div>
+       
+        <ul class="navbar-nav" dir="ltr">
+          <li class="nav-item">
+            <a class="nav-link log hvr-grow-shadow" href="login.html">تسجيل دخول</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link log hvr-grow-shadow " href="register.html">حساب جديد</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+      <!--end navbar-->
+      <!-- Start about-->
+        <div class="about">
+            
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                
+                    <img src="img/hi.jpg" style="margin-left: 80px;" class="wow fadeIn"/>
+                </div>
+                
+                <div class="col-md-6 col-sm-12 col-xs-12"  data-aos="zoom-in-right">
+                   <p class="ww ">
+                       من نحن ؟ <br>PS-Estates مجتمع تفاعلي على الانترنت يقدم خدمات متخصصة و مفيدة لجميع فئات المجتمع بشكل عام، و للقطاع العقاري بشكل خاص، حيث يحظى الفرد كونه جزءاً من هذا المجتمع بفرص أكبر و أوسع لايجاد العقار الذي يبحث عنه بسهولة و يسر، و في نفس الوقت إخبار الآخرين بما لديه من فرص أو طلبات عقارية. كما تحظى الشركات العقارية المشتركة في بيست هوتل.كوم بالاستفادة من وسائل التسويق المتقدمة لتسويق عقاراتها على الانترنت بشكل واسع، الحصول على نتائج تسويقية و ترويجية على الصعيد المحلي و العالمي.</p>
+                    
+                    <button class="ww">اقرا المزيد!</button>
+                </div>
+                
+                </div>
+            </div>
+     
+        </div>
+        <!-- End about-->
+        <!-- Start Footer-->
+        <div class="footer">
+          <div class="container" data-aos="zoom-out">
+              <div class="row">
+              
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow flipInX">
+                  <h3>الخدمات</h3>
+                      
+                      <p>
+                      <a href="#WI" data-toggle="modal" data-target="#WI">اعلن معنا</a><br>
+                          
+                          <a href="#join" data-toggle="modal" data-target="#join">انضم الى شبكات PS-Estates المحلية</a><br>
+                          
+                          <a href="#">جد عقارك بسرعة من خلال البحث السريع</a><br>
+                          
+                          <a href="add.html">اعلن عن عقارك الان</a><br>
+                          
+                         <a href="login.html">سجل الان في PS-Estates</a><br>
+                          
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow flipInX">
+                  
+                  <h3>المساعدة و الدروس</h3>
+                      <p>
+                      <a href="#">كيف تستفيد من PS-Estates</a><br>
+                      
+                      <a href="#">كيف تجد عقارك في PS-Estates</a><br>
+                      
+                      <a href="#">كيف تضيف عقارك في PS-Estates</a><br>
+                      
+                     <a href="#">كيف تقارن بين العقارت في PS-Estates</a><br>
+                      
+                      <a href="#">كيف تحفظ البحث الذي قمت به في PS-Estates</a><br>
+                      </p>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow flipInX">
+                  
+                  <h3>الشركة</h3>
+                      
+                      <p>
+                      <a href="about.html">من نحن</a><br>
+                          
+                          <a href="#">سياسة الخصوصية</a><br>
+                          
+                          <a href="#res" data-toggle="modal" data-target="#res" >اخلاء المسؤولية</a><br>
+                          
+                         <a href="#condition" data-toggle="modal" data-target="#condition" >الشروط و الاحكام</a><br>
+                          
+                          <a href="#cal" data-toggle="modal" data-target="#cal">اتصل بنا</a><br>
+                      </p>
+                  </div>
+                  
+              </div>
+              
+              </div>
+              <div class="fontw ww fadeIn">
+              <i class="fa fa-facebook-square"  style=" font-size: 30px;"></i>
+                  <i class="fa fa-twitter-square"  style=" font-size: 30px;"></i>
+                  <i class="fa fa-youtube-square"  style=" font-size: 30px;"></i><br>
+                  <span class="ww fadeIn text-center" style="text-align: center;">جميع الحقوق محفوظة &copy; 2019 PS-Estates.com</span>
+  
+              </div>
+                     </div>
+         <!-- End Footer-->
+         <!-- Start Modul footer-->
+    <!-- Start advertise Modal -->
+
+<div class="modal fade" id="WI" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">أعلن معنا</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>
+          نوصلك الى أكبر شريحة من مشتري العقارات، مستأجري العقارات، مطوري العقارات و المستثمرين في القطاع العقاري. 
+
+هل ترغب بأن تعلن في موقع PS-Estates؟ نهنئك على  تفكيرك السليم. إن موقعPS-Estates هو بيئة خصبة للاعلان، تتميز بتخصصها، و ارتفاع عدد مشاهداتها، و نوعية زوارها مما يساعدك على توجيه حملاتك الاعلانية بشكل يستهدف الشريحة التي ترغب بأن تصل اليها. 
+
+<br>لا تتردد في مراسلتنا على PS-Estates.support@gmail.com للحصول على كل التفاصيل حول الخيارات الاعلانية التي نوفرها لك بالاضافة الى أسعار الاعلانات المختلفة.
+      </p>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn closebtn" data-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End advertise Modal -->
+
+  <!-- Start JoinPS Modal -->
+
+<div class="modal fade" id="join" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">انضم الى شبكة PS-Estates المهنية</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>هل أنت وكيل عقاري؟ من المؤكد أنك كنت تبحث عن مكان مثل هذا منذ فترة طويلة. PS-Estatesيحقق لك كل ما تتمنى أن تجده في بيئة عمل آمنة و مريحة، حيث تعلن عن عروضك للملايين التي يتم ترويجها في محركات البحث المختلفة، و تتعاون مع الوكلاء الآخرين، و تزيد من صفقاتك، ضمن بيئة تمتاز بالمهنية العالية. 
+          PS-Estates يوفر لك:
+          
+          امكانية الاعلان عن جميع عروضك العقارية عبر الانترنت لتصل الى شريحة هائلة من الزبائن المحتملين.
+          امكانية التعاون مع زملائك من الوكلاء العقاريين ضمن شبكة PS-Estates، مشاهدة ما لديهم من عروض و التنسيق معهم بطريقة سريعة و شفافة لاتمام صفقات تعاونية.
+          امتلاك موقع الكتروني خاص بك تعرض عليه جميع خدماتك و عروضك العقارية، حيث يتميز هذا الموقع بارتباطه مع نفس القاعدة الخاصة بموقع PS-Estates، و التي تضمن لك تسويقا" أشمل في محركات البحث المختلفة و المواقع الاجتماعية المتنوعة.
+          
+          التعامل ضمن بيئة ذات مهنية عالية و سمعة مميزة حيث يمكنك أن تقدم خدماتك بكل سهولة و مهنية لزبائنك كي يفتخروا بما تقدمه لهم أمام الآخرين.
+          انضم الى شبكة PS-Estates المهنية</p>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn closebtn" data-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End JoinPS Modal -->
+
+ <!-- Start Disclaimer Modal -->
+
+<div class="modal fade" id="res" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">اخلاء المسؤولية</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>
+          إن المعلومات الموجودة في هذا الموقع الإلكتروني لأغراض عامة فقط. إن المعلومات المقدمة من قبل بيست هوتل  وعلى الرغم من سعينا لتكون المعلومات حديثة وصحيحة، فإننا لا نضمن بشكل صريح أو ضمني اكتمال، دقة، موثوقية، ديمومة أو توفر الموقع الإلكتروني أو المعلومات أو المنتجات أو الخدمات أو الرسوم المرفقة الموجودة في الموقع ولأي غرض كانت. إن أي اعتماد على أي من المعلومات سيكون بشكل حاسم مخاطرة تقع على عاتقك. 
+  لن نكون في أي وقت مسؤولين عن أي أي خسارة أو تلف ويتضمن ذلك وبلا حصر الضرر غير المباشر أو التتابعي أو أي ضرر أو تلف مهما كان ينشأ عن نقص البيانات أو الأرباح أو يتصل باستخدام هذا الموقع. 
+  من خلال هذا الموقع الإلكتروني فإنك ستتمكن من الوصول إلى مواقع إلكترونية أخرى والتي تعتبر خارج سيطرةبيست هوتل . ليست لدينا السيطرة على طبيعة محتوى أو توفر تلك المواقع. إن تضمين أي روابط لا يعني بالضرورة أننا نوصي أو ندعم ما تظهره تلك المواقع. 
+  لقد تم بذل كل جهد للحفاظ على الموقع الإلكتروني يعمل بشكل سلس. إلا أن بيست هوتل لا تتحمل مسؤولية ولن تتحمل مسؤولية أن يكون الموقع غير موجود بشكل مؤقت بسبب أية أمور فنية خارجة عن نطاق السيطرة. 
+  إننا لا نتحمل مسؤولية أية صور أو وصف غير صحيح وأية إعلانات منتهية الصلاحية... 
+          </p>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn closebtn" data-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Disclaimer Modal -->
+       <!-- Start conditions Modal -->
+
+<div class="modal fade" id="condition" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">الشروط والأحكام</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>
+          تعتبر هذه الاتفاقية محددة للشروط و الالتزامات الواقعة على كل من موقع (PS-Estates ) و (المشترك) و المتعلقة بالخدمات التي ستقوم<br> (PS-Estates) بتوفيرها للمشترك من خلال الموقع الالكتروني<br>
+   (PS-Estates. Com)، حيث أن هذه الشروط و الالتزامات هي كما يلي:
+  <ol>
+ <li> يبدأ احتساب الخدمة المقدمة من (PS-Estates ) لـ(المشترك) من التاريخ المتفق عليه بين الطرفين و المتمثل بتاريخ اشتراك المشترك بالموقع الالكتروني.</li>
+  <li> تعتبر (PS-Estates) غير مسؤولة عن صحة البيانات و المعلومات و الصور الواردة في الموقع الالكتروني، ما لم يكن متعلقا بـ(PS-Estates).</li>
+  <li>لا توجد أية ارتباطات لـ(PS-Estates) بالعقارات الواردة في الموقع الالكتروني أو أية علاقة بأصحابها كما و لا توجد لـ(PS-Estates ) أية علاقة بالعمليات التجارية (كالبيع و التأجير و الشراء ... إلخ) التي تتم على العقارات المعروضات على صفحات الموقع الالكتروني.</li>
+  <li> في حال تم استخدام الموقع بهدف التخريب و/أو إلحاق الأذى و/أو انتحال أسماء شركات أخرى و/أو استخدامه بصورة منافية للأخلاق و/أو استخدامه بأي طريق مخالف للقانون و العادات و التقاليد، فيحق لـ(PS-Estates) إلغاء حساب المشترك بدون إشعار سابق و دون أن تترتب على (PS-Estates ) أية التزامات قانونية مع احتفاظ (PS-Estates ) بحقها بعدم رد باقي مبلغ الاشتراك المدفوع من قبل المشترك مسبقا.</li>
+  <li> تتم إدارة الحساب من قبل المشترك حيث يقوم وحده و على نفقته الخاصة بالإضافة و الإلغاء و التعديل على الحساب الخاص به على الموقع الالكتروني، مع بقاء حق (PS-Estates) بالإطلاع و المراقبة و فق ما تراه مناسبا على الحساب الخاص بالمشترك و شطب و حجب ما تراه غير لائق.</li>
+  <li>يتوجب على المشترك تزويد (PS-Estates) ببياناته الشخصية الحقيقية و جميع وسائل الاتصال المتاحة للتواصل معه، حيث ستكون جميع هذه المعلومات سرية باستثناء البيانات المعلن عنها، و لن تقوم (PS-Estates) بإعطاء أي جهة تلك البيانات إلا عند المساءلة القانونية و تلبية لطلب الجهات الرسمية.</li>
+  <li> يتحمل المشترك مسؤولية المحافظة على معلومات حسابه الخاص على الموقع الالكتروني، من اسم المستخدم و كلمة المرور و كامل البيانات و المتعلقات الأخرى على الموقع، حيث لا يتحمل (PS-Estates) أي مسؤولية في حال تم تسريب تلك المعلومات لأي جهة أخرى.</li>
+  <li> يحق لـ(PS-Estates) إيقاف/إلغاء موقع المشترك في حالة اكتشاف أن البيانات المرسلة من قبله غير صحيحة و/أو مزورة.</li>
+  <li> إن طريقة التواصل الرسمية لموقع (PS-Estates ) هي عبر البريد الالكتروني، لذلك فإن أية رسائل مهمة يتم و/أو تنبيهات و/أو تحذيرات و/أو مطالبات مالية يتم الإبلاغ عنها عن طريق البريد الالكتروني المسجل للمشترك عبر (بيست هوتل)، و في حال تغيير المشترك لبريده فإنه يتوجب عليه إبلاغ إدارة موقع (PS-Estates) بذلك مباشرة، كما يعتبر المشترك مسؤولا في حال عدم وصول أي رسالة له من (PS-Estates) في حال وجود خلل أمني أو فني لدى الشركة مقدمة خدمة البريد الالكتروني للمشترك، حيث سيتم إرسال كل المعلومات مثل كلمة المرور و اسم المستخدم على نفس البريد الالكتروني.</li>
+  <li> يقر المشترك أن عمره فوق الـ(18) سنة.</li>
+  <li> تحتفظ (بيست هوتل) بحقها في تحديث وتعديل شروط الخدمة ويجوز لها تغيير سياسة الخصوصية من وقت لآخر. ودون الحاجة لإخطار المشترك بذلك. وتقع على عاتق المشترك مسؤولية التحقق بشكل منتظم من أي تحديث أو تعديل تم إجراؤه ودون أن يتم الانتقاص من الحقوق التي الممنوحة من قبل هذه الخدمة.</li></ol>
+  تم وضع هذه الاتفاقية بجميع أجزائها لضمان حقوق (PS-Estates) وحقوق (المشترك) و لتوضيح التزامات كل طرف، حيث تعتبر وهذه الاتفاقية بمثابة اتفاق يسري مفعوله من تاريخ اشتراك المشترك مع (PS-Estates)، وهي بمثابة اتفاقية بين الطرفين يجب الالتزام به من قبل (المشترك) و (PS-Estates) سويا
+  إن أي مخالفة لهذه الاتفاقية من قبل (المشترك) تعرض حسابه للإيقاف أو الحذف بدون إشعار مسبق ودون استرجاع أي مبالغ، بالإضافة إلى أنه سيكون عرضة للملاحقة القانونية في حالة حدوث أي مخالفة تضر بأمن موقع (PS-Estates ) أو إلحاق الأذى به).
+  إن إعطاء المشترك أمر (موافق) المبينة في أخر صفحة تسجيل مستخدم جديد في الموقع على الشروط الواردة أعلاه، و منح المشترك حسابا على الموقع الالكتروني PS-Estates. Com) و قيامه باستخدام الحساب بأي صورة من الصور، يعتبر دليلا على قبول و موافقة المشترك الالتزام بكامل البنود و الشروط المذكورة أعلاه.
+          </p>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn closebtn" data-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End conditions Modal -->
+
+       <!-- Start callus Modal -->
+
+<div class="modal fade" id="cal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">اتصل بنا</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <p>بيست هوتل  / شركة العقل الجميل <br> 
+          للتطوير والاستشارات الالكترونية
+          فلسطين _طولكرم<br>
+          <p>
+          صندوق البريد  <i class="fa fa-inbox" aria-hidden="true"></i> : 230196
+          </p> 
+          <p>
+           الرمز البريدي <i class="fa fa-address-card" aria-hidden="true"></i> : 11123 
+          </p>
+          <p>
+          شارع نابلس ، مجمع التاج ، بناية رقم 23، الطابق الأرضي
+          </p>
+          <p>
+          هاتف <i class="fa fa-phone"></i> : 00962796171768 
+          </p>
+         البريد الإلكتروني <i class="fa fa-envelope" aria-hidden="true"></i> :PS-Estates.Com</p>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn closebtn" data-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End callus Modal -->
+
+
+
+    <!-- End Modul footer-->
+    <!-- Start Reservation modal -->
+<div class="modal fade " id="resrvemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title"  id="exampleModalLabel">اختيار المحافظة</h2>
+      </div>
+      <div class="modal-body">
+        <div class="flexcontainer">
+        <select id="city2" class="city" >
+          <option>اسم المدينة؟</option>
+      <option>اريحا</option>
+           <option>القدس</option>
+           <option>بيت لحم</option>
+           <option>جنين</option>
+           <option>رام الله</option>
+           <option>سلفيت</option>
+           <option>طوباس</option>
+           <option>طولكرم</option>
+           <option>قلقيلية</option>
+           <option>نابلس</option>
+          <option>الخليل</option>
+          <option>غزة</option>
+          
+      </select>
+      
+      <select class="town">
+      <option>اسم البلد؟</option>
+      </select>
+  
+      <select class="propType">
+          <option>نوع العقار؟</option>
+      <option>شقق</option>
+      <option>فنادق</option>
+      <option>مكاتب</option>
+      <option>محلات تجارية</option>
+      <option>مخازن</option>
+      <option>مستقل</option>
+          </select>
+          </div>
+      
+  <input type="text" class="t1" placeholder="السعر من">
+      
+   <input type="text"  class="t1" placeholder="السعر إلى"> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light " data-dismiss="modal" style="margin-left: 10px;">إلغاء</button>
+        <a href="reservation.html" > <input type="submit"  class="btn btn-primary" value="الانتقال لصفحة الحجز"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Reservation modal -->
+  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      var user=JSON.parse(localStorage.getItem("userdata")).user || {};
+      document.getElementById("username").innerHTML=user.name;
+
+</script>
+     <script type="text/javascript" src="js/jquery-3.x-git.min.js"></script>
+          <script type="text/javascript" src="js/popper.min.js"></script>
+       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+       
+       <script type="text/javascript" src="js/ww.js"></script>
+       <script type="text/javascript" src="js/aos.js"></script>
+       <script type="text/javascript" src="js/main.js"></script>
+       <script type="text/javascript" src="js/searchTown.js"></script> 
+         
+         
+         
+</body>
+</html>

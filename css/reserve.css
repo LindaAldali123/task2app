@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Cairo';
+    src: URL('../fonts/Cairo/Cairo-SemiBold.ttf') format('truetype');
+  }
+  body
+  {font-family: 'Cairo', sans-serif;} 
+/* start navbar */
+.navbar {
+  top:0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+/* left to right part */
+.nav-link {
+  margin-top:10;
+    font-weight: bold;
+    color: #aaa; 
+  }
+.nav-link:hover{
+  color: #1e90ff !important ;
+}
+
+#i1 {
+  width: 40px;
+  height: 40px;
+  display: block; 
+  margin: auto
+  }
+/*right to  left part */
+.log {
+  height: 45px;
+  background-color:  #008b8b !important;
+    border-radius: 5px;
+  padding: 5px 5px 10px 5px;
+  color: #fff !important;
+  margin: 5px;
+  font-size: 18px;
+}
+.log:hover {
+  color: #fff !important;
+} 
+.butim {
+  background-color: #f8f9fa !important;
+  border-color:#f8f9fa!important;
+}
+.butim img {
+
+  border-radius: 50%;
+}
+.dropdown-item span {
+  padding: 0px 5px 0px 5px;
+  background-color: #008b8b;
+  color: #fff;
+  border-radius: 60%;
+}
+.dropdown-toggle::after { 
+  content: none; 
+}
+.hello
+{margin: 10;}
+/* End navbar */
+
+/* Start Hotel Cards Part  */
+
+.hotels
+{
+  margin-top: 50px;}
+.im1{
+  margin: 10px;
+  width:90%;
+}
+.card{margin: 20px}
+.b1,.b1:hover
+{background-color:#008b8b ;}
+
+ /* End Hotel Cards Part  */
+
+    

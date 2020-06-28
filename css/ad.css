@@ -1,0 +1,218 @@
+/* Start Add */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.add {
+    width: 60%;
+    height: 600px;
+    box-shadow: 1px 0px 20px 1px #aaa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+}
+
+.head {
+    background-image: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.2)) , url("../img/bac.jpg");
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.head h3 , .head p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+.form{
+    width: 100%;
+    
+}
+.form {
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+.cityn select , .cityn input  {
+    width: 300px;
+    margin: 10px;
+    height: 40px;
+    border: 1px solid #aaa;
+    padding-right: 10px;
+}
+
+.cityn , .search{
+    width:645px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+
+textarea {
+    width: 623px;
+    margin: 10px;
+    height: 100px;
+    border: 1px solid #aaa;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-right: 10px;
+}
+
+.price {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+.price * {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.price input[type="file"]{
+    border-width: 0;
+}
+
+
+
+input[type="submit"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: #fff;
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkcyan;
+    color: #fff;
+    box-shadow: 1px 0px 10px 1px #aaa;
+    transition-duration: .7s;
+}
+
+@media only screen and (max-width:1085px){
+    
+    .add{
+        height: 820px;
+    }
+    
+    form div {
+        width: 100%;
+    }
+    
+    .cityn , .search{
+        width: 100%;
+    }
+    
+    .cityn select , .cityn input {
+        display: block;
+       width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+   form div input {
+        display: block;
+       width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    
+    .price{
+        width: 200px;
+    }
+    
+    textarea{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    input[type="submit"]{
+        width: 200px;
+    }
+    
+}
+
+
+@media only screen and (max-width:1085px){
+    
+    .add{
+        width: 90%;
+    }
+
+}
+/*.add .form .city{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+@media only screen and (max-width: 1085px){
+.city select, .city input {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}}
+
+.add .form .city ,.about{
+    
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    height: 40px;
+    border: 1px solid #aaa;
+    padding-right: 10px;
+}
+.add .form textarea{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    height: 100px;
+    border: 1px solid #aaa;
+    padding-right: 10px;
+}
+.add .form .town,input{
+    margin: 10px;
+    height: 40px;
+    border: 1px solid #aaa;
+    padding-right: 10px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 350px;}
+   /* margin-top: -45px;*/
+
+
+/* End Add */

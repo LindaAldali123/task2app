@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<title>Task 2</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/main.css">
+     <link rel="stylesheet" type="text/css" href="css/reserve.css">
+     <link rel="stylesheet" href="css/hover.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+   <!--start navbar-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="logo col-xs-12">
+        <a class="navbar-brand" href="#" style="color: #1E90FF"><img id="i1" src="img/logo.png">PS-Estates</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="Reservation.html" data-toggle="modal" data-target="#resrvemodal">الحجز</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html">من نحن</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="add.html">اضف عقارك+</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="Contact.html">اتصل بنا</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="langDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              اللغة
+            </a>
+            <div class="dropdown-menu" aria-labelledby="langDropdown">
+              <a class="dropdown-item" href="#">العربية</a>
+
+              <a class="dropdown-item" href="#">English</a>
+            </div>
+          </li>
+        </ul>
+
+        <label class="hello" dir="ltr" style="margin-right: 260px;"><spane id="username"> </spane> اهلا بك</label>
+        <div class="dropdown" dir="ltr">
+          <button class="butim btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            <img src="img/user.jpg" width="60" height="60" />
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="Profile.html"> الملف الشخصي <i class="fa fa-user"></i></a>
+            <a class="dropdown-item" href="#"> <span>6</span>الاشعارات <i class="fa fa-bell"></i></a>
+            <a class="dropdown-item" id="logout" href="#">تسجيل الخروح <i class="fa fa-sign-out"></i> </a>
+            <a class="dropdown-item" id="adm" href="dashboard.html">صفحة المسؤول <i class="fa fa-sign-out"></i> </a>
+          </div>
+        </div>
+       
+        <ul class="navbar-nav" dir="ltr">
+          <li class="nav-item">
+            <a class="nav-link log hvr-grow-shadow" href="login.html">تسجيل دخول</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link log hvr-grow-shadow " href="register.html">حساب جديد</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+      <!--end navbar-->
+    <!-- Start -->
+    <div class="row" style="margin-bottom: 100px;">
+      <p></p>
+    </div>
+        <!-- End-->
+                 <!-- Start Card-->
+          <!-- Start Card-->
+  <!-- Start Latest Posts -->
+  <div class="container" style="margin-bottom: 30px;">
+    <div class="row building-row">
+      
+      <!--  Grid column -->
+    </div>
+  </div>
+
+  <!-- End Latest Posts -->
+
+  <!--  End Card-->
+          <!--  End Card-->
+                    <!-- Start Footer-->
+          <div class="foot">
+            <div class="container">
+                
+                <div class="row" >
+                 
+                    <div class="col-md-6 col-sm-12 col-xs-12" >
+                    
+                    <img src="img/com.jpg" data-aos="fade-down" />
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    
+                    <p data-aos="fade-down">في حال رايت شيء خاطئ في الصفحة او اي تصرف غير جيد<br> من احد العقارات, نتمنى ان  تراسلنا <a href="Contact.html" style="color: blue;">من هنا</a> حتى نتخذ الاجرائات المناسبة </p>
+                        <p>PS-EstatesSupport@gmail.com</p>
+                        
+                        <p  style="color: #008b8b;margin: 10px;
+                        font-size: 35px;"><i class="fa fa-facebook-square hvr-rotate"></i> <i class="fa fa-twitter-square hvr-rotate"></i> <i class="fa fa-instagram hvr-rotate"></i> <i class="fa fa-youtube hvr-rotate"></i> </p>
+                    </div>
+                </div>
+                </div>
+              </div>
+            <!-- End Footer-->
+            <!-- Start Modul-->
+      <!--Start  Reservation -->
+      <div class="modal" id="Reserv">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h2 class="modal-title text-center">معلومات الحجز</h2>
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="container information">
+                <div class="row">
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="text" placeholder="الاسم الاول" required />
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="text" placeholder="الاسم الاخير" required />
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="text" placeholder="رقم الهوية" required />
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="number" placeholder="رقم الهاتف" />
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="date" placeholder="تاريخ الحجز" />
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="date" placeholder="تاريخ الانتهاء" required />
+                        
+                    </div>
+                    
+                     <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="number" placeholder="عدد الاشخاص" />
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                    <input type="number" placeholder="عدد الغرف" required />
+                        
+                    </div>
+                    
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container">
+                <div class="row" >
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    
+                    <div class="rr">
+                <h5 style="font-weight: bold;">للشخص</h5>
+                    <input type="radio" name="res" style="width: 20px;"/><label style="font-size: 20px;
+                   color:dodgerblue;">15$</label>
+                </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="rr">
+                <h5  style="font-weight: bold;">للعائلة</h5>
+                    <input type="radio" name="res" style="width: 20px;"/><label style="font-size: 20px;
+                    color:dodgerblue;">70$</label>
+                </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="rr">
+                <h5  style="font-weight: bold;">للمجموعة</h5>
+                    <input type="radio" name="res" style="width: 20px;"/><label style="font-size: 20px;
+                   color:dodgerblue;">60$</label>
+                </div>
+                    </div>
+                    
+                    
+                    </div>
+                </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-left: 10px;">الغاء</button>
+              <a href="Reservation.html"> <input type="submit" value="ارسل" class="btn btn-primary"></a>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+       
+        
+     
+            <!-- End Reservation Modul-->
+            
+ <!-- Message Modul-->
+ <div class="modal" id="Message">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title text-center">الرسالة</h2>
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <textarea placeholder="الرسالة..."></textarea>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-left: 10px;">الغاء</button>
+        <a href="Reservation.html"> <input type="submit" value="ارسل" class="btn btn-primary"></a>
+      </div>
+
+    </div>
+  </div>
+</div>
+ 
+      <!-- End Message Module-->
+       <!-- Worning Modul-->
+       <div class="modal" id="Worning">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h2 class="modal-title text-center">ابلاغ عن عقار</h2>
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <textarea placeholder="اكتب سبب الابلاغ..."></textarea>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-left: 10px;">الغاء</button>
+              <a href="Reservation.html"> <input type="submit" value="ارسل" class="btn btn-primary"></a>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+     
+            <!-- End Worning Modul -->
+            
+  
+    <!-- End Modul-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var user=JSON.parse(localStorage.getItem("userdata")).user || {};
+    document.getElementById("username").innerHTML=user.name;
+
+</script>
+               <script type="text/javascript" src="js/jquery-3.x-git.min.js"></script>
+               <script type="text/javascript" src="js/popper.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+             
+            <script type="text/javascript" src="js/ww.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+          
+              
+              
+              
+     </body>
+     </html>

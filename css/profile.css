@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Cairo';
+    src: URL('../fonts/Cairo/Cairo-SemiBold.ttf') format('truetype');
+  }
+  body
+  {font-family: 'Cairo', sans-serif;} 
+.navbar {
+    height: 250px;
+     box-shadow: 1px 1px 15px 1px rgb(177, 101, 136);
+}
+
+.bg-light {
+    background-image:  url("../img/cover.jpg");
+    background-position: center;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(103, 22, 112, 0.6);
+    z-index: 2;
+  }
+  .container-fluid {
+    position: relative;
+    z-index: 3;
+    
+  }
+
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.navbar-toggler{
+    background-color:#eee;}
+/* End navbar */
+/* Start Proerty Message */
+.container {
+    position: relative;
+    margin-top: 50px;
+}
+.propMsg ,.siteMsg{
+    text-align: right;
+    margin: 10px auto;
+    height: 550px;
+    overflow-y: scroll;
+    width: 350px;
+    display: block; 
+}
+
+.propheader {
+    background-color: #008b8b;
+    height: 50px;
+}
+
+.propheader h4 {
+text-align: center; 
+    color:white;
+    position: relative;
+    padding :10px;   
+    font-weight: bold;
+}
+.Secheader img{
+    display: inline;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Secheader h6{
+    display: inline;
+    font-weight: bold;}
+
+.propMsg .resCancel{
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #ffa500;
+    border: 1px solid #ffa500;
+    font-weight: bold;
+}
+
+.propMsg .resCancel:hover{
+     background-color: #ffa500;
+    color: #fff;
+    box-shadow: 1px 1px 5px #aaa;
+}
+
+.propMsg section,.siteMsg section {
+    padding: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #008b8b;
+}
+
+.propMsg .hotel{
+    font-weight: bold;
+    color: #008b8b;
+}
+
+.day {
+    float: left;
+}
+/* End Proerty Message */
+.mail {
+    color: #ccc;
+}
+/* Start Admin Info */
+.adminInfo {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 1px #aaa;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.adminInfo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 10px;
+}
+
+.adminInfo h3 {
+    margin: 15px;
+}
+
+.icons i{
+    padding: 6px 10px 6px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    color: #aaa;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* End Admin Info */
+/*Start Site Messages */
+.siteMsg{
+  
+    width: 370px;
+    
+}
+/*End Site Messages */
+
+/*start Modals*/
+/*  Start Update Profile modal  */
+#uprofile h5{
+    text-align: center;
+    margin: auto;
+}
+
+#uprofile .uploadcontainer
+{
+    text-align: center;
+}
+#uprofile .uploadcontainer img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto ;
+}
+#choose{
+    position: relative;
+    top:40px;
+}
+.Userinfo
+{ position: relative;
+    top: 50px;}
+.Userinfo input {
+    display: block;
+    margin:10px auto 5px 5px;
+    border: 1px solid #aaa;
+    width: 100%;
+    height: 50px;
+    padding-right: 10px;
+}
+.Userinfo input:last-child {
+    margin-bottom:25px;
+}
+.Userinfo textarea
+{
+    margin: 10px auto 5px 5px;
+    border: 1px solid #aaa;
+    width: 100%;
+    height: 100px;
+    padding-right: 10px;
+}
+#uprofile button {
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 1px solid #aaa;
+    width: 100px;
+}
+/*  End Update Profile modal  */
+/* Start Delete Propert Modal */
+#delProp {
+    text-align: center;
+    margin: auto;
+}
+#delProp h2
+{margin: auto;}
+#delProp [type="search"]
+{width: 90%;
+border: 1px solid gray;
+height: 50px;}
+#delProp button {
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 1px solid #aaa;
+    width: 100px;
+}
+/* End Delete Propert Modal */
+/* Start Update Propert Modal */
+#updProp {
+    text-align: center;
+    margin: auto;
+}
+#updProp h2
+{margin: auto;}
+#updProp [type="search"]
+{width: 90%;
+border: 1px solid gray;
+height: 50px;}
+#updProp button {
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 1px solid #aaa;
+    width: 100px;
+}
+/* End Update Propert Modal */
+
+
+/*End Modals*/
