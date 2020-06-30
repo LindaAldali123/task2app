@@ -1,4 +1,3 @@
-/* Start Add */
 body {
     margin: 0;
     padding: 0;
@@ -18,8 +17,7 @@ body {
 
 .head {
     background-image: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.2)) , url("../img/bac.jpg");
-    height: 100px;
-    background-color: darkcyan;
+        height: 100px;
 }
 
 .head h3 , .head p {
@@ -69,14 +67,14 @@ textarea {
     padding-right: 10px;
 }
 
-.price {
+.price1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
 }
 
-.price * {
+.price1 * {
     width: 200px;
     margin: 10px;
     border: 1px solid #aaa;
@@ -84,11 +82,24 @@ textarea {
     padding-right: 10px;
 }
 
-.price input[type="file"]{
+.price1 input[type="file"]{
     border-width: 0;
 }
 
+.price2{
+    width: 520px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.price2 * {
+    width: 150px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    height: 40px;
+    padding-right: 10px;
+}
 
 input[type="submit"] {
     display: block;
@@ -141,7 +152,7 @@ input[type="submit"]:hover {
     }
     
     
-    .price{
+    .price1 , .price2{
         width: 200px;
     }
     
@@ -166,53 +177,4 @@ input[type="submit"]:hover {
     }
 
 }
-/*.add .form .city{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 100%;
-}
-@media only screen and (max-width: 1085px){
-.city select, .city input {
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}}
-
-.add .form .city ,.about{
-    
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
-    height: 40px;
-    border: 1px solid #aaa;
-    padding-right: 10px;
-}
-.add .form textarea{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
-    height: 100px;
-    border: 1px solid #aaa;
-    padding-right: 10px;
-}
-.add .form .town,input{
-    margin: 10px;
-    height: 40px;
-    border: 1px solid #aaa;
-    padding-right: 10px;
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-right: 350px;}
-   /* margin-top: -45px;*/
-
-
 /* End Add */

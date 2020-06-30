@@ -660,8 +660,11 @@
   <!-- <script type="text/javascript" src="js/reserve.js"></script> -->
   <script src="js/jquery-3.2.1.min.js"></script>
   <script>
-        var user=JSON.parse(localStorage.getItem("userdata")).user || {};
-        document.getElementById("username").innerHTML=user.name;
+    
+        var userdata=JSON.parse(localStorage.getItem("userdata"));
+        if(userdata !=null)
+       {var user=userdata.user || {};
+        document.getElementById("username").innerHTML=user.name;}
 
   </script>
 

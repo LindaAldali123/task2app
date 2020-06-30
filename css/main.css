@@ -61,21 +61,7 @@ TASK 1
 #adm{
     display: none;
 }
-/* Start slider */
-.carousel slide{
-	background-color: #DDD;
-	height: 40vh;
-	
-}
-@media(max-width: 768px){
-	.carousel slide{
-		justify-content:center;
-	}
-	}
-	
 
-
-/* End slider */
 /* Start search */
 /* Start SearchProperty  */
 .search{

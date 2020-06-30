@@ -23,7 +23,7 @@
         
         
         <div class="form">
-        <form>
+        <form name="myform" novalidate>
         
             <div class="cityn">
                 
@@ -66,11 +66,21 @@
             
             <textarea class="description" placeholder="وصف العقار..." required></textarea>
             
-            <div class="price">
-            
-                <input type="number" placeholder="السعر" required class="pr"/>
+            <div class="price1">
+                
+                <input type="number" placeholder="السعر" required id="pri" class="pr"/>
                 
                 <input type="file"  value="اختر صورة للعقار" required class="fil"/>
+                
+            </div>
+            
+            <div class="price2">
+            
+                 <input type="number" placeholder="السعر للشخص" id="p" required />
+                
+                 <input type="number" placeholder="السعر للغرفة" required />
+                
+                 <input type="number" placeholder="السعر لليوم" required />
                 
             </div>
             
@@ -90,10 +100,9 @@
  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
  <script type="text/javascript" src="js/searchTown.js"></script> 
- <script type="text/javascript" src="js/ww.js"></script>
  <script type="text/javascript" src="js/aos.js"></script>
- 
  <script type="text/javascript" src="js/add.js"></script>
+ <script type="text/javascript" src="js/addpric.js"></script>
  <script src="js/jquery-3.2.1.min.js"></script>
    
    
