@@ -55,7 +55,7 @@
             </li>
           </ul>
   
-          <label class="hello" dir="ltr" style="margin-right: 260px;"><spane id="username"> </spane> اهلا بك</label>
+          <label class="hello" dir="ltr" style="margin-right: 300px;"><spane id="username"> </spane> اهلا بك</label>
           <div class="dropdown" dir="ltr">
             <button class="butim btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -142,7 +142,7 @@
       var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
       var marker = new google.maps.Marker({
           map: map,
-          position: myLatLng,
+          position: mapProp.center,
           title: 'Hello World!'
         });
       }
@@ -443,22 +443,24 @@
 </div>
 <!-- End Reservation modal -->
   
-  <script>
-    AOS.init();
-  </script>
- <script>
-  var user=JSON.parse(localStorage.getItem("userdata")).user || {};
-  document.getElementById("username").innerHTML=user.name;
-
-</script>
-
+ 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  <script type="text/javascript" src="js/jquery-3.x-git.min.js"></script>
       <script type="text/javascript" src="js/popper.min.js"></script>
    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="js/main.js"></script> 
-   <script type="text/javascript" src="js/ww.js"></script>
    <script type="text/javascript" src="js/aos.js"></script>
-   <script type="text/javascript" src="js/searchTown.js"></script> 
+   <!-- <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/fetchdata.js"></script> -->
+  <script type="text/javascript" src="js/searchTown.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script>
+     AOS.init();
+        var userdata=JSON.parse(localStorage.getItem("userdata"));
+        if(userdata !=null)
+       {var user=userdata.user || {};
+       if(user.name != undefined)
+        document.getElementById("username").innerHTML=user.name;}
+  </script>
      
      
      

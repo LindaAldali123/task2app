@@ -1,7 +1,9 @@
 /*
 TASK 1
 */
-
+body{
+    font-size: medium;
+}
 /* start navbar */
 .navbar {
   top:0;
@@ -62,13 +64,35 @@ TASK 1
     display: none;
 }
 
+    
+    @media only screen and (max-width:536px){
+        .navbar {
+            margin-right: 120px;
+            width: 100%;  
+        }
+        .carousel slide{
+            width: 200%;
+            justify-self: start;
+            
+        }
+        
+        .carousel slide .carousel-inner {
+            width: 600px;
+            justify-content: center;
+        }
+      #bobo{
+        width: 380px;  
+      } 
+      .container-fluid
+      {width:90%;}
+    }
 /* Start search */
 /* Start SearchProperty  */
 .search{
   width: 75%;
   display: block;
   margin:-22px auto auto auto;
-  padding: 10px;
+  padding: 19px;
   position: relative;
   background-color: #fff;
   box-shadow: 1px 1px 15px 1px #aaa;
@@ -150,6 +174,10 @@ visibility:visible;
 	
 }
 @media(max-width: 768px){
+    .navbar {
+        left:0;}
+    .log{width: 120px;
+    text-align: center;}
 	.container .box{
 		width: 100%;
 		padding-right: 15px;
@@ -314,9 +342,21 @@ display: block;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    display :flex;
 }
+@media(max-width:750px){
+    #Reserv  .container .row
+    {
+        display: block;
+        margin-right: 0;
+        margin-left: 0}
+#Reserv .madal-footer{
+padding-left: 125px;
+}}
 @media (min-width: 768px)
 {
+    .navbar {
+        left:0;}
 	#Reserv  .container .row.col-md-6 {
     max-width: 50%;
     flex: 0 0 50%;
@@ -328,6 +368,7 @@ display: block;
     border: 1px solid #aaa;
     padding-right: 10px;
 }
+
 #Reserv .container .row p{
 	cursor: pointer;
 	display: inline-block;
@@ -345,13 +386,11 @@ display: block;
 /* End Reservaton */
 /* Start Message */
 #Message{
-	margin-top: 85px;
+    margin: auto;
+    width: 70%!important;
 	direction: rtl;
 	text-align: center;
-	box-sizing: border-box;
-    
-  
-
+    box-sizing: border-box;
 }
 #Message .modal-dialog{
 	
@@ -409,7 +448,8 @@ display: block;
 /* End Message */
 /* Start Worning */
 #Worning{
-	margin-top: 85px;
+    margin: auto;
+    width: 70%!important;
 	direction: rtl;
 	text-align: center;
 	box-sizing: border-box;	
@@ -485,6 +525,19 @@ width: 100px;}
 
 /* End reserv */
 /* Start about */
+@media only screen and (max-width:536px){
+    .about {
+        width: 100%;
+    }
+    
+    .about .container .row .col-md-6 img {
+        width: 200px;
+    }
+    .about .container .row .col-md-6 p{
+        width: 200px; 
+    }
+
+}
 .about .container .row .col-md-6 img{
 	margin-top: 100px;
 	margin-left: 250px;
@@ -516,6 +569,9 @@ width: 100px;}
     border-image: initial;
     padding: 5px 10px;
 }
+#cal,#res,#condition,#join ,#WI
+{ margin: auto;
+    width: 80%!important; }
 /* End about */
 /* Start contact */
 .contact {
@@ -622,37 +678,54 @@ text-align: right;}
 /*End Reservation */
 
 @media(max-width:750px){
-    .navbar-toggler{
+.navbar-toggler{
         margin-right: 40px;
     }
-    .search {
+.flexcontainer
+    {display: block;}
+.search{
         width: fit-content!important;
         padding: 10px;
     }
-    .search select{
+.search select,.search input[type="text"]{
         display: block;
         margin-right: auto;
               margin-left: auto;
              
     }
-    .search input {
-        display: block;
-  margin-right: auto;
-        margin-left: auto;
-       
-    }
+.search #sub
+   {width: 150px!important ;
+margin-right: 0px!important;}
     
-   .navbar{
+.navbar{
        overflow-y: scroll!important;
    }
-   .search #sub
-   {width: 150px!important ;
-margin-right: 10px!important;}
+
 }
 @media (min-width: 992px)
 {
 .log
 {height: auto!important;}
 }
-
-
+@media (max-width: 576px) {
+    #carouselExampleIndicators {
+      margin: 0;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:536px){
+    #reservation1 {
+        width: 90%;
+    }
+    
+    #reservation1  .row {
+        width: 400px;
+    }
+    
+.foot .container .row .col-md-6 img{
+    width: 400px;  
+}
+.foot .container .row .col-md-6 p{
+    width: 400px;  
+}
+}

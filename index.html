@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/reserve.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/reserve.css"> -->
   <link rel="stylesheet" href="css/hover.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
@@ -57,7 +57,7 @@
           </li>
         </ul>
 
-        <label class="hello" dir="ltr" style="margin-right: 260px;"><spane id="username"> </spane> اهلا بك</label>
+        <label class="hello" dir="ltr" style="margin-right: 300px;"><spane id="username"> </spane> اهلا بك</label>
         <div class="dropdown" dir="ltr">
           <button class="butim btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -157,14 +157,14 @@
     <input type="text" id="minp" class="t1" placeholder="السعر من">
 
     <input type="text" id="maxp" class="t1" placeholder="السعر إلى">
-    <input type="submit" id="sub" value="بحث" />
+    <input type="submit" id="sub" value="بحث" style="width: 70px;height: 47px;" />
 
   </form>
   <!-- End SearchProperty -->
 
   <!-- Start Card-->
   <!-- Start Latest Posts -->
-  <div class="container" style="margin-bottom: 30px;">
+  <div class="container" id="bobo" style="margin-bottom: 30px;">
     <div class="row building-row">
       
       <!--  Grid column -->
@@ -304,9 +304,9 @@
         </div>
 
         <!-- Modal footer -->
-        <div class="modal-footer">
+        <div class="modal-footer" style="padding-left: 175px;">
           <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-left: 10px;">الغاء</button>
-          <a href="Reservation.html"> <input type="submit" value="ارسل" class="btn btn-primary"></a>
+          <a href="Reservation.html"> <input type="submit" value="دفع PAYPAL" class="btn btn-primary"></a>
         </div>
 
       </div>
@@ -642,35 +642,24 @@
   </div>
 
   <!-- End callus Modal -->
-
-
-
-  <!-- End Modul footer-->
+ <!-- End Modul footer-->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
   <script type="text/javascript" src="js/jquery-3.x-git.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/fetchdata.js"></script>
   <script type="text/javascript" src="js/searchTown.js"></script>
-  <script type="text/javascript" src="js/search.js"></script>
-  <script type="text/javascript" src="js/ww.js"></script>
-  <!-- <script type="text/javascript" src="js/reserve.js"></script> -->
+  <script type="module" src="js/search.js"></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script>
-    
+     AOS.init();
         var userdata=JSON.parse(localStorage.getItem("userdata"));
         if(userdata !=null)
        {var user=userdata.user || {};
+       if(user.name != undefined)
         document.getElementById("username").innerHTML=user.name;}
-
   </script>
-
-
-
-
 </body>
 
 </html>

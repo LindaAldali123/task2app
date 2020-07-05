@@ -111,34 +111,7 @@ html , body{
         top: 0;
     }
     
-    .register .form  {
-    width: 210%; 
-    }
     
-    .register .form  {
-        text-align: center;
-        position: relative;
-        top: 20px;
-    }
-    
-    .register .form .input {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .register .form a {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    textarea {
-         display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
 }
 
 @media only screen and (max-width:767px){
@@ -153,13 +126,15 @@ html , body{
 
 @media only screen and (max-width:536px){
     .register {
-        width: 80%;
+        width: 100%;
     }
     
-    form input , textarea{
+    .register .form input {
         width: 200px;
     }
-    
+    .register .form   textarea{
+        width: 200px; 
+    }
 
 }
 
@@ -315,7 +290,8 @@ html , body{
 
 @media only screen and (max-width:536px){
     .login {
-        width: 80%;
+        text-align: center;
+        width: 100%;
     }
     
     .login .form  .input {
